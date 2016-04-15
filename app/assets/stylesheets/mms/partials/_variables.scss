@@ -1,0 +1,14 @@
+//** Default values
+
+$white: #fff !default;
+$primary-color: #0B0B61 !default;
+$secondary-color: #81DAF5 !default;
+$text-color: #000 !default;
+
+h2, h2, h3, h4, h5, h6 {
+  color: $primary-color;
+}
+
+body {
+  color: $text-color;
+}

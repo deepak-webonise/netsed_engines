@@ -1,5 +1,6 @@
 Mms::Engine.routes.draw do
   namespace :backend do
-    resources :posts
+    resources :dashboard
+    resources :user_management
   end
 end

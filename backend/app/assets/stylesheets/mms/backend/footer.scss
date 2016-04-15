@@ -1,0 +1,9 @@
+.navbar {
+  @extend .navbar;
+  background: $primary-color;
+  text-align: center;
+  color: $white;
+}
+.footer {
+  padding: 20px;
+}

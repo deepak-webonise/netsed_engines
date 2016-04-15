@@ -1,0 +1,24 @@
+%h2= 'User Management'
+%section
+  .container
+    .col-md-11
+      .row
+        %table.table-table-hover#users
+          %thead
+            %tr
+              %th= 'Full Name'
+              %th= 'Email'
+              %th= 'City'
+          %tbody
+            -@users.each do |user|
+              %tr
+                %td
+                  = user.full_name
+                %td
+                  = user.email
+                %td
+                  = user.city
+= stylesheet_link_tag 'mms/data_tables', media: 'all', 'data-turbolinks-track' => true
+= stylesheet_link_tag 'mms/backend/dashboard', media: 'all', 'data-turbolinks-track' => true
+= javascript_include_tag 'mms/data_tables', 'data-turbolinks-track' => true
+= javascript_include_tag 'mms/backend/dashboard'

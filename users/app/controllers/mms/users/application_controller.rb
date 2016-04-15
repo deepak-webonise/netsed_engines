@@ -1,6 +1,6 @@
 module Mms
   module Users
-    class ApplicationController < ::BaseController
+    class ApplicationController < Mms::BaseController
     end
   end
 end
